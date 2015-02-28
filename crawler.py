@@ -5,13 +5,7 @@
 #################
 #all the imports
 #################
-import sqlite3
-import time
-from handler import index_handler, login_handler, register_handler,\
-  logout_handler, add_entry_handler, manage_handler
-from flask import Flask, request, session, g, redirect, url_for,\
-  abort, render_template, flash
-from contextlib import closing
+
 
 #configuration
 
